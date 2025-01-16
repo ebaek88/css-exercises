@@ -1,0 +1,21 @@
+.odd-numbered {
+  background-color: #ffc0cb;
+  font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#second-element {
+  color: hsl(240, 100%, 50%);
+  font-size: 36px;
+}
+
+.third-element {
+  font-size: 24px;
+}
+
+/* Since the third and the fourth element have the same font size,
+  It is better to reapply the same class attribute above to the fourth element. */
+#fourth-element {
+  background-color: rgb(144, 238, 144);
+  /* font-size: 24px; */
+  font-weight: bold;
+}
